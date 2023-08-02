@@ -1,0 +1,367 @@
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: #2b2b2b;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+.form-group{
+    float: right;
+    width: 200px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    margin-left: 180px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+    nav li:hover{
+        color: White;
+        text-decoration-line: underline;
+        text-decoration-color: white;
+     }
+
+
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/subway-sandwiches-how-to-get-for-free-summer-2000-be948d9369574c27a27f78528fb5ffec.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.cta1{
+    width: 110px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    float: right;
+    margin-left: 70px;
+    background-image: url(../assets/logo.png);
+    background-position: center;
+    background-size: cover;
+    color: #2b2b2b;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-top: 330px;
+    margin-right: 20px;
+    }
+
+    .cta1:hover{
+        color:  white ;
+        background-color: #2b2b2b;
+        }
+
+    .cta2{
+        width: 50px;
+        height: 20px;
+        padding-left: 15px;
+        padding-top: 8px;
+        padding-bottom: 38px;
+        float: right;
+        margin-left: 40px;
+        margin-top: 40px;
+        border-color: white;
+        background-image: url(../assets/cart.png);
+        background-position: center;
+        background-size: cover;
+        font-size: 20px;
+        color: #2b2b2b;
+        margin-top: 330px;
+        margin-right: 20px;
+    }
+
+    .cta2:hover{
+        color:  white ;
+        background-color: #2b2b2b;
+        }
+
+.col-2{
+    width: 100%;
+    height: 300px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+
+.super{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.block1{
+    width: 400px;
+    height: 300px;
+float: right;
+}
+
+
+.subs{
+    width: 100%;
+    height: 800px;
+    padding-left:140px;
+    float: left;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+
+
+.sub1{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/HEADER.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub1:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub2{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/sub.webp);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub2:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub3{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/HAM.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub3:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub4{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/BROWN.webp);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub4:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub5{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/OLIVES.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub5:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub6{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/pickle.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub6:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub7{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/CHICKEN.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub7:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub8{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/PIZZA.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub8:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub9{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/STEAK.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub9:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.sub10{
+    width: 200px;
+    height: 200px;
+    background-image: url(../ASSETS/VEGGIE.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    margin-left: 0px;
+    color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sub10:hover{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+    margin-top: 800px;
+    color: white;
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    background-image:url(../assets/logo.png);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: -50px;
+    margin-left: 920px;
+}
+
+.social{
+    float: left;
+    margin-left: -200px;
+    margin-top: -40px;
+}
+
+
+
+
+
+
+
+
