@@ -31,9 +31,9 @@ displayCheckout = () => {
         `;
     }
 
-    totalArea.innerHTML = "R" + checkoutTotal.toFixed(2);
+    totalArea.innerHTML = "R" + realTimeOrder.toFixed(2);
 
-    localStorage.setItem('realTimeOrder', checkoutTotal.toFixed(2));
+    localStorage.setItem('realTimeOrder', realTimeOrder.toFixed(2));
 };
 
 
@@ -48,7 +48,7 @@ function applyDiscount() {
         const discount = realTimeOrder * 0.1;
         const discountedPrice = realTimeOrder - discount;
 
-        realTimeOrderElement.textContent = discountedPrice.toFixed(2);
+        realTimeOrder.textContent = discountedPrice.toFixed(2);
         localStorage.setItem('realTimeOrder', discountedPrice.toFixed(2)); // Save the discounted price back to localStorage
         alert('Promo code applied successfully! You got 10% off.');
     } else {
