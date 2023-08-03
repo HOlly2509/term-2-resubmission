@@ -31,25 +31,31 @@ displayCheckout = () => {
         `;
     }
 
-    totalArea.innerHTML = "R" + checkoutTotal + ".00";
+    totalArea.innerHTML = "R" + checkoutTotal.toFixed(2);
+
+    localStorage.setItem('realTimeOrder', checkoutTotal.toFixed(2));
 };
 
-enterPromo = () => {
-    let value = document.getElementById('enterPromo').value;
-    let newCost = document.getElementById('newTotal');
-    let totalArea = document.getElementById('newTotal');
 
-    if (!promotion) {
-        if (value === "1234") {
-            let updateTotal = checkoutTotal - checkoutTotal * 0.1; // Apply 10% discount
-            totalArea.innerHTML = "R" + updateTotal.toFixed(2); // Use toFixed to display two decimal places
-            promotion = true;
-        } else {
-            alert("Promo code is invalid");
-            promotion = false;
-        }
+
+function applyDiscount() {
+    const promoCodeInput = document.getElementById('promoCode');
+    const realTimeOrderElement = document.getElementById('realTimeOrder');
+    const realTimeOrder = parseFloat(localStorage.getItem('realTimeOrder'));
+    const promoCode = promoCodeInput.value;
+
+    if (promoCode === 'DISCOUNT10') {
+        const discount = realTimeOrder * 0.1;
+        const discountedPrice = realTimeOrder - discount;
+
+        realTimeOrderElement.textContent = discountedPrice.toFixed(2);
+        localStorage.setItem('realTimeOrder', discountedPrice.toFixed(2)); // Save the discounted price back to localStorage
+        alert('Promo code applied successfully! You got 10% off.');
     } else {
-        console.log("Promo code has already been added");
-        alert("Promo code has already been applied");
+        alert('Invalid promo code. Please try again.');
     }
-};
+}
+
+
+
+

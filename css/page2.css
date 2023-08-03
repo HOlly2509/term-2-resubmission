@@ -111,7 +111,6 @@ footer{
     padding-bottom: 20px;
     float: left;
 }
-
 .logo{
     width: 100px;
     height: 50px;
@@ -119,10 +118,12 @@ footer{
     background-position: center;
     background-size: cover;
     float: left;
+    margin-top: -50px;
     margin-left: 920px;
 }
 
 .social{
     float: left;
-   
+    margin-left: -200px;
+    margin-top: -40px;
 }

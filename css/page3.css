@@ -46,17 +46,20 @@ nav li{
         margin-top: 100px;
      }
 
-     .promo{
-        width: 300px;
-        height: 50px;
-        float: right;
-        margin-right: 100px;
-        margin-top: 100px;
-     }
+  .promo{
+    margin-left: 55px;
+    padding-top: 200px;
+
+  }
 
      .btn{
         margin-top: 10px;
         margin-left: 33px;
+     }
+
+     .payment{
+        margin-left: 600px;
+        margin-top: 700px;
      }
 
      footer{
@@ -67,14 +70,19 @@ nav li{
         margin-top: 400px;
         color: white;
     }
-
-     .logo{
+    .logo{
         width: 100px;
         height: 50px;
         background-image:url(../assets/logo.png);
         background-position: center;
         background-size: cover;
-        float: left;
-        margin-right: 800px;
         margin-top: 20px;
+        margin-left: 920px;
     }
+    
+    .social{
+        float: left;
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+    

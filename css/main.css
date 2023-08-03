@@ -333,7 +333,7 @@ float: right;
 
 footer{
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color: #2b2b2b;
     margin-top: 800px;
     color: white;
@@ -355,7 +355,7 @@ footer{
 .social{
     float: left;
     margin-left: -200px;
-    margin-top: -40px;
+    margin-top: 400px;
 }
 
 
